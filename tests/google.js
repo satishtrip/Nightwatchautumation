@@ -16,7 +16,7 @@ module.exports ={
         .click(lastupdatedropdownOpenerSelector)
         .click(lastupdatedropdownValueSelector)
         .click(submitButtonSelector)
-        .assert.urlContains('as_q=satish+tripathi', 'Searched query is Satish')
+        .assert.urlContains('as_q=satish+tripathi', 'Searched query is Satish Tripathi in Hindi')
         .saveScreenshot('tests_output/google.png')
     }
 }
